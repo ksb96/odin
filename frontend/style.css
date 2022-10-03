@@ -1,0 +1,37 @@
+/* universal selector */
+* {
+    color: #fff;
+}
+
+/* class selector */
+.main-heading {
+    color: red;
+    background-color: #fff;
+}
+
+/* id selector */
+#main-list {
+    background-color: #fff;
+}
+
+/* grouping selector,common declaration */
+/* both classes at once */
+.main-heading,
+.sub-heading{
+color: red;
+background-color: #fff;
+}
+
+/* !included elements */
+/* chaining selectors (both class + ID)*/
+.class#id{
+    background-color: blue;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+img{
+    width: auto;
+    height: 100px;    
+}
