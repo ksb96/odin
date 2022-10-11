@@ -1,0 +1,56 @@
+.main-part{
+    background-color: #333;
+    padding-left: 2rem;
+}
+
+.main-heading{
+    color: #fff;
+    padding-left: 2rem;
+}
+
+.main-header {
+    background-color: #333;
+    text-align: left;
+    color: #fff;
+}
+
+.link-list{
+    text-align: right;
+    /* color: beige; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .para-content{
+    color: #fff;
+  }
+  .sign-up{
+    color: #fff;
+    background-color: rgb(0, 212, 255);
+    padding: 10px; 
+    border-radius: 15px;
+
+  }
+
+  .image-container{
+    float: right;
+    
+  }
