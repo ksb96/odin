@@ -1,6 +1,6 @@
 **My Practice of Web Development journey**
 
-**Folder structure**
+**Folder structure -**
 
 1) Frontend - this folder contains only the "html" & "css" files for developing a basic web page/s.
 
