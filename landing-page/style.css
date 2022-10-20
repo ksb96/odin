@@ -1,14 +1,20 @@
-ul {
-  list-style-type: none;
+/* ul { */
+  /* list-style-type: none;
   margin: 0;
-  padding: 0;
   overflow: hidden;
-  background-color: #333;
-}
+  background-color: #1F2937; */
+  /* display: flex;
+  margin-left: auto;
+  padding: 0px 100px 0px 0px;
+  padding-top: 0px;
+  padding-right: 100px;
+  padding-bottom: 0px;
+  padding-left: 0px; */
+/* } */
 
-li {
+/* li {
   float: left;
-  border-right:1px solid #bbb;
+  border-right: 1px solid #bbb;
 }
 
 li:last-child {
@@ -25,31 +31,75 @@ li a {
 
 li a:hover:not(.active) {
   background-color: #111;
+} */
+
+.header-img{
+  width: 100px;
+  height: auto;
+  align-items: center;
 }
 
+.child-heading {
+  text-align: center;
+  background-color: #fff !important;
+}
 
-
-.child-heading{
-    text-align: center;
-  }
-
-div.child{
+div.child {
   display: inline-block;
   vertical-align: top;
   text-align: center;
   padding: 2em;
 }
 
-img{
-  border-radius: 8px;
+.sub-header {
+  background-color: #1F2937;
+  padding-left: 5em;
+  padding-top: 2em;
 }
 
-.child-content1{
+.text-header {
+  color: #fff;
+  padding-top: 3em;
+}
+
+.subtext {
+  color: #fff;
+}
+
+.first-img {
+  display: flex;
+  color: #F9FAF8;
+  background-color: #1F2937;
+  justify-content: center;
+  padding: 50px;
+}
+
+img {
+  border-radius: 8px;
+  background-color: #fff !important;
+}
+
+.sign-up {
+  display: block;
+  text-align: center;
+  width: 110px;
+  border: none;
+  background: #3882f6;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Roboto', arial;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.child-content1 {
   display: block;
   color: #808080;
+  background-color: #fff !important;
 }
 
-.sub-child{
+.sub-child {
   background-color: #808080;
   text-align: center;
   color: #000;
@@ -60,26 +110,32 @@ img{
   font-size: 1.5em;
 }
 
-.grand-child{
-  background: rgb(0,212,255);
+.grand-child {
+  background: rgb(0, 212, 255);
   text-align: left;
   color: #000;
   font-size: 1.5em;
   padding: 2em;
 }
 
-.button1{
+.button1 {
   border-radius: 1em;
-  border-color: #000;
+  border-color: #fff;
+  background: #3882f6;
   color: #000;
-  background-color: rgb(0,212,255);
+  display: block;
+  text-align: center;
+  width: 110px;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
 }
-  
 
-  .footer-area{
-    border-top: 2em;
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 2em;
-  }
+
+.footer-area {
+  border-top: 2em;
+  text-align: center;
+  background-color: #1F2937;
+  color: #fff;
+  padding: 2em;
+}
