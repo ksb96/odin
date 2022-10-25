@@ -13,7 +13,7 @@ if (isMyNamePresent === true) {
 }
 
 //object & symbol type
-let object ={
+let object = {
     name: "kub",
     age: 26,
     gender: "M"
@@ -32,3 +32,22 @@ typeof "kub";
 // null
 // undefined
 // Symbol
+
+//styling using js
+console.log(' %c I am some new text', 'font-size: 20px; background-color: red');
+
+//function
+function favoriteAnimal(animal) {
+    console.log(animal + " is my favorite animal!")
+}
+
+favoriteAnimal('Lion');
+
+//local scope
+function showMessage() {
+    let message = "Hello, I'm JavaScript!";
+    alert(message);
+}
+showMessage();
+
+alert(message); // error thrown - out-of-scope
