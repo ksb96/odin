@@ -51,3 +51,22 @@ function showMessage() {
 showMessage();
 
 alert(message); // error thrown - out-of-scope
+
+//logic building
+function add7() {
+    var number = 7;
+    return number;
+}
+
+function multiply(number1, number2) {
+    return number1 * number2;
+}
+
+function capitalize(string) {
+    return string1 = string.charAt(0).toUpperCase() + string.slice();
+}
+
+
+//splice
+const fruits = ["mango", "orange", "apple", "grapes"];
+fruits.splice(2,1, "strawberry", "lichi"); //['mango', 'orange', 'strawberry', 'lichi', 'grapes']
