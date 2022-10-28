@@ -70,3 +70,13 @@ function capitalize(string) {
 //splice
 const fruits = ["mango", "orange", "apple", "grapes"];
 fruits.splice(2,1, "strawberry", "lichi"); //['mango', 'orange', 'strawberry', 'lichi', 'grapes']
+
+//slice
+const username = ["ted","russel","andy","max","lewis","don"];
+//last-1
+username.slice(2,3); //["andy"]
+
+const username1 = ['alonso', 'vettel', 'bottas', 'sainz', 'topnotch'];
+username1.splice(2,3, "lewis"); //['bottas', 'sainz'] - OUT || lewis -IN
+
+// username1['alonso', 'vettel', 'lewis', 'topnotch']
