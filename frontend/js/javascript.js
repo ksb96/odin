@@ -77,6 +77,6 @@ const username = ["ted","russel","andy","max","lewis","don"];
 username.slice(2,3); //["andy"]
 
 const username1 = ['alonso', 'vettel', 'bottas', 'sainz', 'topnotch'];
-username1.splice(2,3, "lewis"); //['bottas', 'sainz'] - OUT || lewis -IN
+username1.splice(2,2, "lewis"); //['bottas', 'sainz'] - OUT || lewis -IN
 
 // username1['alonso', 'vettel', 'lewis', 'topnotch']
