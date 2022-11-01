@@ -80,3 +80,27 @@ const username1 = ['alonso', 'vettel', 'bottas', 'sainz', 'topnotch'];
 username1.splice(2,2, "lewis"); //['bottas', 'sainz'] - OUT || lewis -IN
 
 // username1['alonso', 'vettel', 'lewis', 'topnotch']
+
+
+// -------------------------
+//         DOM
+// -------------------------
+//query selector
+const selector = document.querySelector('.class'); //return the first element which matches the parenthesis
+const selectors = document.querySelectorAll('.class'); //returns all the elements 
+
+//create & alter element(ID)
+const div = document.createElement('div');
+div.style.color = 'red';
+div.style.backgroundColor = '#000';
+
+//editing attributes(ID)
+div.setAttribute('div', 'theDiv'); //updating
+div.getAttribute('div'); //returns the specified
+div.removeAttribute('div'); //removes the specified
+
+//with classes
+div.classList.add('className'); //adding a class to div
+
+//adding HTML content
+div.innerHTML = 'hello'; //render the id of the specified
