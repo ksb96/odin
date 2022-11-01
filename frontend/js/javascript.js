@@ -90,7 +90,7 @@ const selector = document.querySelector('.class'); //return the first element wh
 const selectors = document.querySelectorAll('.class'); //returns all the elements 
 
 //create & alter element(ID)
-const div = document.createElement('div');
+const div = document.createElement('#div');
 div.style.color = 'red';
 div.style.backgroundColor = '#000';
 
@@ -100,7 +100,17 @@ div.getAttribute('div'); //returns the specified
 div.removeAttribute('div'); //removes the specified
 
 //with classes
-div.classList.add('className'); //adding a class to div
+div.classList.add('.className'); //adding a class to div
 
 //adding HTML content
 div.innerHTML = 'hello'; //render the id of the specified
+
+
+
+// -------------------------
+//         Events
+// -------------------------
+const click = document.querySelector('#btnClick');
+click.addEventListener('click', ()=>{
+    alert('Button Clicked');
+});
