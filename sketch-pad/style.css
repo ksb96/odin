@@ -1,16 +1,35 @@
 .grid-container {
     display: grid;
-    gap: 0px;
-    grid-template-columns: auto auto auto;
+    gap: 20px;
+    grid-template-columns: 80px 80px 80px 80px 80px;
     background-color: #fff;
-    padding: 10px;
+    padding: 50px;
+    justify-content: center;
 }
 
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid;
     padding: 50px;
-    font-size: 30px;
+}
+
+/* dark-mode */
+.dark-mode {
+    background: black;
+    color: white;
+  }
+    
+  .dark-mode .moon-icon {
+    display: inline;
+  }
+
+.Mheading{
+    padding-top: 2px;
+    text-align: center;
+}
+
+.Sheading{
+    text-align: center;
 }
 
 /* centering */
