@@ -54,7 +54,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     border-radius: 5px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
 }
+/* effect */
+
 
 #disable{
     color: #fff;
