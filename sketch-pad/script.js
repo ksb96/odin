@@ -44,7 +44,7 @@ $(document).ready(function(){
       if(firstLoad) {
         firstLoad = false;
       } else {
-        size = parseInt(prompt("Enter grid size:"));
+        size = parseInt(prompt("Enter grid size (X x X):"));
       }
       for (i=1; i<=size; i++) {
         $("#pad").append("<div class=\"row\"></div>");
