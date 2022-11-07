@@ -9,3 +9,5 @@
 3) Odin-recipes - *Same contents as the Formula 1-page folder above.*
 
 4) root-cli - folder consists of basic git commands.
+
+5) Sketch-pad - *A frontend project*, where **"event and callback functionality are demonstrated through javascript language".**
