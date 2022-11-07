@@ -82,11 +82,11 @@ h1, h2 {text-align: center;}
 .box {
     float: left;
     height: 100%;
-    border: 1px solid lightgrey;
+    border: 1px solid #000;
 }
 
 .color {
-    background-color: black;
+    background-color: rgb(233, 6, 6);
 }
 
 .footer {
