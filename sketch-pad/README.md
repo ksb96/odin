@@ -1,4 +1,4 @@
-** Sketch Pad **
+**Sketch Pad**
 
 *Version - 1.0(updated UI)*
 
